@@ -1,11 +1,26 @@
-import { Outlet } from "react-router-dom"
+// import { Outlet } from "react-router-dom"
 
-function Layout() {
+// function Layout() {
+//   return (
+//     <div className="w-full">
+      
+//       <Outlet />
+//     </div>
+//   )
+// }
+
+// export default Layout
+
+import { Outlet } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
+
+export default function Layout() {
   return (
-    <div className="w-full">
+    <>
+      <ScrollToTop />
+      <main>
         <Outlet />
-    </div>
-  )
+      </main>
+    </>
+  );
 }
-
-export default Layout

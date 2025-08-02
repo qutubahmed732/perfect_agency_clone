@@ -3,7 +3,7 @@ import { Shield, ArrowLeft, UserCheck, Eye, FileText, Lock, Mail } from "lucide-
 
 function PrivacyPolicy() {
     return (
-        <div>
+        <>
             <header className="bg-gradient-to-r from-[#059669] to-[#0d9488] text-white py-6">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center mb-4">
@@ -204,7 +204,7 @@ function PrivacyPolicy() {
                     <p className="text-sm">© 2025 Pfeifer Media. All rights reserved.</p>
                 </div>
             </footer>
-        </div>
+        </>
     )
 }
 

@@ -3,7 +3,7 @@ import { ArrowLeft, ArrowRight, Scale, FileText, Users, AlertTriangle, CreditCar
 
 function TermsAndConditions() {
     return (
-        <div>
+        <>
             <header className="bg-gradient-to-r to-[#1f2937] from-[#1e293b] text-white py-6">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center mb-4">
@@ -254,7 +254,7 @@ function TermsAndConditions() {
                     <p className="text-sm">© 2025 Pfeifer Media. All rights reserved.</p>
                 </div>
             </footer>
-        </div>
+        </>
     )
 }
 
