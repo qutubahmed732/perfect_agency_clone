@@ -4,7 +4,7 @@ function Records() {
   return (
     <section className="w-full bg-gradient-to-br from-[#0f172a] via-10% to-[#111827] py-20 px-5">
       <div className='mb-2 border border-[#34d3994d] flex items-center gap-2 text-[#aff3da] py-2 px-4 w-[max-content] rounded-full bg-[#10b98133] font-semibold text-[14px] mx-auto'>
-        <Award color='#34d399' size={18} /> Stop Paying for Ads Forever
+        <Award color='#34d399' size={18} /> Proven Track Record
       </div>
       <h1 className="text-3xl md:text-5xl text-center text-white font-bold p-2">Trusted by <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#3ddad7] to-[#1ec686]">Industry Leaders</span></h1>
       <p className="max-w-3xl text-xl text-white text-center mx-auto mt-4 px-5 md:px-0">Our methodology has transformed businesses across every industry, from startups to Fortune 500 companies</p>
@@ -81,14 +81,14 @@ function Records() {
               <Star color="#fbbf24" fill="#fbbf24" size={22} />
             </div>
           </div>
-          <p class="text-neutral-300 mb-6 leading-relaxed">"We went from spending $15K/month on agencies with mediocre results to building our own team that delivers 3x better performance. The ROI is incredible."</p>
-          <div class="flex items-center">
-            <div class="w-12 h-12 bg-gradient-to-br from-[#10b981] to-[#14b8a6] rounded-full flex items-center justify-center mr-4">
-              <span class="text-white font-bold">SJ</span>
+          <p className="text-neutral-300 mb-6 leading-relaxed">"We went from spending $15K/month on agencies with mediocre results to building our own team that delivers 3x better performance. The ROI is incredible."</p>
+          <div className="flex items-center">
+            <div className="w-12 h-12 bg-gradient-to-br from-[#10b981] to-[#14b8a6] rounded-full flex items-center justify-center mr-4">
+              <span className="text-white font-bold">SJ</span>
             </div>
             <div>
-              <div class="text-white font-semibold">Sarah Johnson</div>
-              <div class="text-neutral-400 text-sm">CEO, TechFlow Solutions</div>
+              <div className="text-white font-semibold">Sarah Johnson</div>
+              <div className="text-neutral-400 text-sm">CEO, TechFlow Solutions</div>
             </div>
           </div>
         </div>
@@ -103,14 +103,14 @@ function Records() {
               <Star color="#fbbf24" fill="#fbbf24" size={22} />
             </div>
           </div>
-          <p class="text-neutral-300 mb-6 leading-relaxed">"Pfeifer Media didn't just teach us marketing - they gave us complete control over our growth. We're now scaling faster than ever before."</p>
-          <div class="flex items-center">
-            <div class="w-12 h-12 bg-gradient-to-br from-[#10b981] to-[#14b8a6] rounded-full flex items-center justify-center mr-4">
-              <span class="text-white font-bold">MC</span>
+          <p className="text-neutral-300 mb-6 leading-relaxed">"Pfeifer Media didn't just teach us marketing - they gave us complete control over our growth. We're now scaling faster than ever before."</p>
+          <div className="flex items-center">
+            <div className="w-12 h-12 bg-gradient-to-br from-[#10b981] to-[#14b8a6] rounded-full flex items-center justify-center mr-4">
+              <span className="text-white font-bold">MC</span>
             </div>
             <div>
-              <div class="text-white font-semibold">Michael Chen</div>
-              <div class="text-neutral-400 text-sm">Founder, GrowthLab</div>
+              <div className="text-white font-semibold">Michael Chen</div>
+              <div className="text-neutral-400 text-sm">Founder, GrowthLab</div>
             </div>
           </div>
         </div>
@@ -125,14 +125,14 @@ function Records() {
               <Star color="#fbbf24" fill="#fbbf24" size={22} />
             </div>
           </div>
-          <p class="text-neutral-300 mb-6 leading-relaxed">"Best investment we've ever made. In 6 weeks, we built a marketing machine that would have taken years to develop on our own."</p>
-          <div class="flex items-center">
-            <div class="w-12 h-12 bg-gradient-to-br from-[#10b981] to-[#14b8a6] rounded-full flex items-center justify-center mr-4">
-              <span class="text-white font-bold">ER</span>
+          <p className="text-neutral-300 mb-6 leading-relaxed">"Best investment we've ever made. In 6 weeks, we built a marketing machine that would have taken years to develop on our own."</p>
+          <div className="flex items-center">
+            <div className="w-12 h-12 bg-gradient-to-br from-[#10b981] to-[#14b8a6] rounded-full flex items-center justify-center mr-4">
+              <span className="text-white font-bold">ER</span>
             </div>
             <div>
-              <div class="text-white font-semibold">Emily Rodriguez</div>
-              <div class="text-neutral-400 text-sm">CMO, InnovateCorp</div>
+              <div className="text-white font-semibold">Emily Rodriguez</div>
+              <div className="text-neutral-400 text-sm">CMO, InnovateCorp</div>
             </div>
           </div>
         </div>

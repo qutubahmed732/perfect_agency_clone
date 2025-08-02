@@ -2,7 +2,7 @@ import { Clock, ArrowRight } from "lucide-react"
 
 function Cta_section() {
     return (
-        <section className="w-full py-20 px-5 bg-gradient-to-br from-[#defbed80] to-[#f9fffe80]">
+        <section className="w-full pb-15 px-5 bg-white relative overflow-hidden">
             <div className='max-w-[1230px] py-10 px-5 mx-auto rounded-3xl flex flex-col items-center gap-7 bg-gradient-to-br from-[#059669] to-[#0d8b82] text-white'>
                 <div className='flex items-center gap-3'>
                     <span><Clock size={45} color="#a7f3d0" /></span>

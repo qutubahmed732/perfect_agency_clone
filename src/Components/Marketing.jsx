@@ -2,15 +2,16 @@ import { RocketIcon, BookOpen, CheckCircle, Lightbulb, TrendingUp, Calendar, Pla
 
 function Marketing() {
   return (
-    <section className="pt-40 bg-gradient-to-br from-[#defbed80] to-[#f9fffe80]">
+    <section className="pt-20 pb-10 relative overflow-hidden">
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[#ecfdf580] to-[#f0fdfa80]"></div>
       <div className="flex flex-col items-center gap-5 mb-20">
         <div className='mb-2 flex items-center gap-2 text-[#047857] py-2 px-4 w-[max-content] rounded-full bg-[#10b98133] font-semibold text-[14px]'>
           <RocketIcon color='#047857' size={15} /> 6-Week Transformation
         </div>
         <div className="heading text-center flex flex-col gap-5">
-          <h1 className="text-4xl sm:text-5xl font-bold text-neutral-900 mb-6">
-            From Marketing Dependent to 
-            <span className="bg-clip-tex text-transparent bg-clip-text bg-gradient-to-l to-[#0d9488] from-[#059669]">Marketing Independent</span></h1>
+          <h1 className="text-4xl sm:text-5xl font-bold text-neutral-900 mb-6"> 
+             From Marketing Dependent to 
+            <span className="ml-2 bg-clip-tex text-transparent bg-clip-text bg-gradient-to-l to-[#0d9488] from-[#059669]">Marketing Independent</span></h1>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">Our proven system transforms your business in just 6 weeks. Here's exactly how we do it.</p>
         </div>
       </div>
