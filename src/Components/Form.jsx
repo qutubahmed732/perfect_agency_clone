@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 
 function Form() {
     return (
-        <section className="w-full pb-20">
-            <div className="max-w-4xl my-20 mx-auto text-center">
+        <section className="w-full py-20">
+            <div className="max-w-4xl mb-16 mx-auto text-center">
                 <h1 className="font-bold text-4xl mb-4">Get Your Free Marketing Strategy Session</h1>
                 <p className="text-xl text-neutral-500 px-3">Discover how to build your own marketing team and stop depending on expensive agencies</p>
             </div>
