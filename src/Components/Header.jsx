@@ -4,7 +4,7 @@ import "../index.css";
 function Header() {
     return (
         <header className='relative border w-full h-[100svh] bg-gradient-to-br from-[#0f1628] via-[#0e1421] to-[#1a2434]'>
-            <section className="w-full h-full m-auto mt-25 flex flex-col items-center justify-start gap-4 md:gap-4">
+            <section className="w-full h-max mt-80 md:mt-20 flex flex-col items-center justify-start gap-4 md:gap-4">
                 <div className='mb-2 border border-[#34d3994d] flex items-center gap-2 text-[#aff3da] py-2 px-4 w-[max-content] rounded-full bg-[#10b98133] font-semibold text-[14px]'>
                     <Zap color='#34d399' size={15} /> Stop Paying for Ads Forever
                 </div>
@@ -23,12 +23,12 @@ function Header() {
                     <li className="flex items-center gap-2"><CheckCircle color='#1ec686' size={18} />Money-Back Guarantee</li>
                     <li className="flex items-center gap-2"><CheckCircle color='#1ec686' size={18} />Proven Results</li>
                 </ul>
-                <div className="absolute bottom-8 left-1/2 transform -translate-x-[-0.5rem] animate-bounce">
-                    <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
-                        <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-pulse"></div>
-                    </div>
-                </div>
             </section>
+            <div className="absolute bottom-8 left-1/2 transform -translate-x-[-0.5rem] animate-bounce">
+                <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
+                    <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-pulse"></div>
+                </div>
+            </div>
         </header>
     )
 }
