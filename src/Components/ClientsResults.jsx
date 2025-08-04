@@ -6,7 +6,7 @@ function ClientsResults() {
         <div className="h-max md:h-screen w-full bg-gradient-to-br from-[#0f172a] via-10% to-[#111827] md:px-20 pt-30 pb-20">
 
             <div className="flex flex-col md:flex-row items-end md:items-start justify-start md:justify-between text-white max-w-7xl m-auto mt-0 md:mt-10">
-                {/* Left Side - Heading */}
+                
                 <div className="w-full md:w-[55%] mb-12 md:mb-0">
                     <h1 className="text-4xl md:text-5xl font-bold leading-tight ml-8 md:ml-0">
                         Don’t hire marketers.<br />
@@ -16,7 +16,7 @@ function ClientsResults() {
                     </h1>
                 </div>
 
-                {/* Right Side - Stats */}
+                
                 <div className="md:w-[45%] flex flex-col gap-6 items-start ml-8 md:ml-40">
                     <h2 className="text-4xl font-bold">Our results over the last year</h2>
 
