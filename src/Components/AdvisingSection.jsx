@@ -2,7 +2,7 @@ import { DollarSign, Users, TargetIcon, CheckCircle } from 'lucide-react'
 
 function AdvisingSection() {
     return (
-        <section className='bg-neutral-50 w-full py-20'>
+        <section className='bg-neutral-50 w-full py-0 md:py-20'>
             <div className="flex flex-col items-center gap-5 heading w-[90%] lg:w-[80%] mx-auto">
                 <h1 className='text-center text-3xl lg:text-4xl font-bold'>Stop Being Dependent on Expensive Agencies</h1>
                 <p className='text-center text-[1.2rem] w-full lg:w-[70%] text-gray-500 px-1 lg:px-15'>Most businesses waste thousands on agencies that promise the world but deliver mediocre results. There's a better way</p>

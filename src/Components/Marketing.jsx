@@ -2,7 +2,7 @@ import { RocketIcon, BookOpen, CheckCircle, Lightbulb, TrendingUp, Calendar, Pla
 
 function Marketing() {
   return (
-    <section className="py-10 relative overflow-hidden">
+    <section className="py-0 md:py-10 relative overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[#ecfdf580] to-[#f0fdfa80]"></div>
       <div className="flex flex-col items-center gap-5 mb-20">
         <div className='mb-2 flex items-center gap-2 text-[#047857] py-2 px-4 w-[max-content] rounded-full bg-[#10b98133] font-semibold text-[14px]'>

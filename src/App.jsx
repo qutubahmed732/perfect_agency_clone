@@ -6,7 +6,6 @@ import Cta_section from "./Components/Cta_section";
 import ClientsResults from "./Components/ClientsResults";
 import Form from "./Components/Form";
 import Footer from "./Components/Footer";
-import Practice from "./Components/Practice";
 
 function App() {
 
@@ -20,7 +19,6 @@ function App() {
       {/* <Records /> */}
       <ClientsResults />
       <Form />
-      <Practice />
       <Footer />
     </>
   )
