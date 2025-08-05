@@ -4,7 +4,7 @@ import "../index.css";
 function Header() {
     return (
         <header className='relative border w-full h-[100svh] bg-gradient-to-br from-[#0f1628] via-[#0e1421] to-[#1a2434]'>
-            <section className="w-full h-max mt-80 md:mt-20 flex flex-col items-center justify-start gap-4 md:gap-4">
+            <section className="w-full h-max my-30 md:mt-20 flex flex-col items-center justify-start gap-4 md:gap-4">
                 <div className='mb-2 border border-[#34d3994d] flex items-center gap-2 text-[#aff3da] py-2 px-4 w-[max-content] rounded-full bg-[#10b98133] font-semibold text-[14px]'>
                     <Zap color='#34d399' size={15} /> Stop Paying for Ads Forever
                 </div>
